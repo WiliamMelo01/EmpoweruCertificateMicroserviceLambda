@@ -9,6 +9,8 @@ The EmpowerU Certificate Generation Microservice handles requests for generating
 - [Features](#features)
 - [Technologies](#technologies)
 - [Usage](#usage)
+- [Examples](#examples)
+- [Todo](#todo)
 - [License](#license)
 
 ## Features
@@ -26,6 +28,11 @@ The EmpowerU Certificate Generation Microservice handles requests for generating
 ## Usage
 
 The microservice uses an SQS queue as a trigger. When a message is published to the queue, the Lambda function is triggered, generating a certificate and sending it to the student's email.
+
+
+## Examples
+
+For examples of generated certificates, please refer to the [examples](./examples/) folder in the repository.
 
 ## TODO
 
