@@ -29,7 +29,7 @@ The microservice uses an SQS queue as a trigger. When a message is published to 
 
 ## TODO
 
-- [ ] IMplement CI/CD to automate deploy
+- [ ] Implement CI/CD to automate deploy
 - [ ] Implement functionality to pre-generate certificates and store them in S3 for faster retrieval when requested by students
 
 ## License
